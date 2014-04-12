@@ -25,5 +25,5 @@ define(["jquery", "md5"], function(
         this.ctx.restore();
       }
       
-    }
+    };
 });

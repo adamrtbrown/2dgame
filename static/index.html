@@ -18,4 +18,30 @@
     -->
     <script data-main="js/app" src="js/require.js"></script>
   </head>
+  <body>
+  	<div id='main_menu'>
+  		<span>New Image</span>
+  		<span>Bone Maker</span>
+  		<span>Character Editor</span>
+  	</div>
+  	<div id='image_uploader'>
+  		<input type="file" id='image_upload' />
+  	</div>
+  	<div id='bone_maker'>
+  		<canvas id='bone_canvas'></canvas>
+  		<div id='bone_menu'><span>New Node</span><select><option>Load Skeleton</option></select></div>
+  		<div class='bone_node'>
+  			<div class='bone_center'></div>
+  			<div class='node_menu'>
+  				<div class='bone_menu_item' id='new_child'>Add Child</div>
+  				<div class='bone_menu_item' id='change_parent'>Change Parent</div>
+  				<div class='bone_menu_item' id='delete_node'>Delete</div>
+  			</div>
+  		</div>
+  		<div id='bone_div'></div>
+  	</div>
+  	<div id='character_editor'>
+  		
+  	</div>
+  </body>
 </html>

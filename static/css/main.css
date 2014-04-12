@@ -3,4 +3,66 @@ html, body {
   padding:0px;
   height:100%;
   width:100%;
+  font-family:Arial;
+}
+#image_uploader {
+	border:4px solid #FFFF00;
+	border-radius: 15px;
+	padding:10px;
+}
+#bone_maker {
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:80px;
+	bottom:0px;
+	background:#444;
+}
+.bone_node {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:20px;
+	height:20px;
+	border:1px solid rgba(255,255,255,0.5);
+	cursor:move;
+}
+.bone_center {
+	position:absolute;
+	left:8px;
+	top:8px;
+	width:4px;
+	height:4px;
+	background: rgba(128,0,0,0.7);
+}
+.node_menu {
+	position:absolute;
+	font-size:10px;
+	top:0px;
+	left:16px;
+	height:3px;
+	width:3px;
+	border:1px solid white;
+	
+}
+.bone_menu_item {
+	position:relative;
+	display:none;
+	width:80px;
+	color:white;
+	left:6px;
+	cursor:pointer;
+}
+.bone_menu_item:hover {
+	background: #333;
+}
+#bone_canvas,#bone_div {
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+#bone_menu {
+	position:absolute;
+	right:10px;
+	top:5px;
 }
